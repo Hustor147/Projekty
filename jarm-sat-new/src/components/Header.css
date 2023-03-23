@@ -1,0 +1,40 @@
+.contentBox {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: right;
+}
+.owner .contentBox {
+  position: relative;
+  margin-left: 50px;
+}
+
+.container {
+  --bs-gutter-x: 0rem;
+}
+.navbar {
+  border: 2px solid red;
+  position: sticky;
+  top: 2px;
+  z-index: 999;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.heading.inSky.contentBox {
+  color: rgb(0, 0, 0);
+  /* position: static;
+  display: block;
+  box-sizing: border-box; */
+  padding-top: 30px;
+  padding-bottom: 300px;
+  border: 2px solid red;
+}
+#sky {
+  margin-top: 30px;
+  /* border: 2px solid red; */
+  background-image: url("/public/images/Nebe.jpeg");
+  height: 30vh;
+  width: 100%;
+  background-size: cover;
+}
