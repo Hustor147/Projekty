@@ -14,8 +14,8 @@ const Header = () => {
 
       {/* Obrazek pod navi listou */}
 
-      <Container id="inSky" className="contentBox">
-        {/* <Row md="4" sm="2" xs="1">
+      {/* <Container id="inSky" className="contentBox"> */}
+      {/* <Row md="4" sm="2" xs="1">
             <Col xs={{ offset: 4, size: 8 }}>
               <h2 className="heading inSky contentBox">
                 Montáže satelitů
@@ -29,8 +29,8 @@ const Header = () => {
             <Col className="column2">tleeidfnisvn sddf adada afda</Col>
           </Row> */}
 
-        {/* <img src="./images/Nebe.jpeg" /> */}
-      </Container>
+      {/* <img src="./images/Nebe.jpeg" /> */}
+      {/* </Container> */}
 
       {/* </Container> */}
     </>

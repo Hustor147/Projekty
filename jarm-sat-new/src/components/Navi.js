@@ -51,34 +51,16 @@ function Navi(args) {
             <NavItem style={{ paddingLeft: "10px" }}>
               <NavLink href="/">O nas</NavLink>
             </NavItem>
-            {/* po kliknuti sjede na urcite misto na strance */}
-            <NavItem style={{ paddingLeft: "10px" }}>
-              <NavLink href="#section1-target" onClick={handleNavLinkClick}>
-                KUK
-              </NavLink>
-            </NavItem>
-            <NavItem style={{ paddingLeft: "10px" }}>
-              <NavLink href="#konec" onClick={handleNavLinkClick}>
-                Konec
-              </NavLink>
-            </NavItem>
+
             <NavItem style={{ paddingLeft: "10px" }}>
               <NavLink href="Nabizime">Nabízíme</NavLink>
             </NavItem>
             <NavItem style={{ paddingLeft: "10px" }}>
               <NavLink href="Reference">Reference</NavLink>
             </NavItem>
-            <UncontrolledDropdown style={{ paddingLeft: "10px" }} nav inNavbar>
-              <DropdownToggle nav caret>
-                Montované systémy
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Anténní systém</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem style={{ paddingLeft: "10px" }}>
+              <NavLink href="Galerie">Naše práce</NavLink>
+            </NavItem>
             <NavItem style={{ paddingLeft: "10px" }}>
               <NavLink href="Kontakt">Kontakt</NavLink>
             </NavItem>

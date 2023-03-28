@@ -6,6 +6,7 @@ import Navi from "../components/Navi";
 import { Container } from "reactstrap";
 import Cards from "../components/Cards";
 import Sky from "../components/Sky";
+import Footer from "../components/Footer";
 
 const Layout = () => {
   return (
@@ -20,8 +21,10 @@ const Layout = () => {
       </div>
 
       <Outlet />
-      {/* <BackOnTop />
-      <Footer /> */}
+      {/* <BackOnTop />*/}
+      <div className="fullBackground">
+        <Footer />
+      </div>
     </>
   );
 };

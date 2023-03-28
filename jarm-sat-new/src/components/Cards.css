@@ -2,8 +2,15 @@
   /* border: 2px solid red; */
   padding: 20px;
 }
+#cards {
+  justify-content: center;
+  margin-top: 5vh;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 .modal-content {
-  /* nastaví šířku modálního okna na 800px */
+  padding: 10px;
   height: fit-content;
   text-align: justify;
 }
@@ -15,4 +22,11 @@
 }
 .modal {
   --bs-modal-width: 70%;
+}
+/* UMISTENI KRIZKU V MODALU NAPRAVO */
+.closeButtonclose {
+  float: right;
+}
+.modalNadpisStred {
+  text-align: center;
 }

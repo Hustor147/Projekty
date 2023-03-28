@@ -1,19 +1,36 @@
+import { Col, Container, Row } from "reactstrap";
+import Map from "../components/Map";
 const Kontakt = () => {
   return (
     <>
       <div className="contentBox">
         <h1>Kontakt</h1>
         <p className="popisky">
-          Už více jak 20let se specializujeme na výstabì a správì televizních,
-          satelitních a kamerových rozvodù v individuálních rodinných nebo ve
-          spoleèných bytových domech s rozvojem nových technologií. Jsme
-          servisní partneøi satelitní a internetové televize skylink, freesat a
-          telly. Nainstalujeme veškeré komponenty pro kvalitní pøíjem ( STA -
-          DVBT2 / DVBS2 ). Pùsobíme v jihoèeském kraji, konkrétnì v okrese
-          Tábor, ale instalace, renovace nebo servis provádíme také napøíklad v
-          okrese Jihdøichùv Hradec, Pelhøimov, Èeské Budìjovice, Písek, Benešov
-          apod. Našim cílem je spokojenost zákazníka a proto instalace, servis
-          provádíme, odbornì, svìdomitì s precizním výsledkem.
+          <Container>
+            <Row>
+              <Col xs={0} sm={4}></Col>
+              <Col xs={12} sm={4}>
+                <br />
+                <h2>Milan Jarolímek</h2>
+                <br />
+
+                <p>
+                  Sídlo
+                  <br />
+                  Příběnická 23
+                  <br />
+                  390 75 Malšice
+                </p>
+              </Col>
+
+              <Col xs={12} sm={4}>
+                <a href="tel:+420123456789">+420 123 456 789</a>
+                <br />
+                <a href="mailto:jarolimek@seznam.cz">Napsat mail</a>
+              </Col>
+            </Row>
+          </Container>
+          <Map />
         </p>
       </div>
     </>

@@ -2,12 +2,9 @@
   box-sizing: border-box;
   margin: 0 auto;
   width: 70%;
-  justify-content: right;
+  /* justify-content: right; */
 }
-.owner .contentBox {
-  position: relative;
-  margin-left: 50px;
-}
+
 .heading.inSky.contentBox {
   color: rgb(0, 0, 0);
   /* position: static;

@@ -4,3 +4,16 @@ p {
 .popisky {
   text-align: justify;
 }
+.center {
+  text-align: center;
+}
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.container img {
+  max-width: 100%;
+  max-height: 100%;
+}
