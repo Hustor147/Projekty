@@ -3,6 +3,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
+      <div id="sky" />
       <div id="section1">
         {/* <Header /> */}
         <div className="contentBox">

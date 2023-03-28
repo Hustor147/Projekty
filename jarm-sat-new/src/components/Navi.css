@@ -1,0 +1,28 @@
+#navi {
+  position: fixed;
+  top: 0;
+
+  /* justify-content: space-between; */
+}
+
+.topButton {
+  cursor: pointer;
+  transition-delay: 1.5s;
+  visibility: visible;
+  position: sticky;
+  bottom: 20px;
+}
+.container {
+  --bs-gutter-x: 0rem;
+}
+
+/* BAREVNOST NAVIGACNI LISTY */
+.bg-light {
+  --bs-bg-opacity: 1;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255) !important;
+  z-index: 999;
+}
+.navbar-nav {
+  margin-left: auto;
+}

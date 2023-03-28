@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import "./Navi.css";
 import {
   Collapse,
   Navbar,
@@ -20,7 +20,7 @@ function Navi(args) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
+  const topNavi = -142;
   function handleNavLinkClick(event) {
     event.preventDefault();
     const targetId = event.currentTarget.getAttribute("href");
@@ -28,7 +28,7 @@ function Navi(args) {
     if (targetElement) {
       const elementOffsetTop = targetElement.offsetTop;
       window.scrollTo({
-        top: elementOffsetTop,
+        top: elementOffsetTop + topNavi,
         behavior: "smooth",
       });
     }
@@ -36,7 +36,7 @@ function Navi(args) {
 
   return (
     <div>
-      <Navbar id="navi" color="light" expand="md">
+      <Navbar id="navi" color="light" expand="md" className="contentBox">
         <NavbarBrand href="/">
           {/* TADY JE LOGO */}
           <img
@@ -70,15 +70,18 @@ function Navi(args) {
             </NavItem>
             <UncontrolledDropdown style={{ paddingLeft: "10px" }} nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                Montované systémy
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
+                <DropdownItem>Anténní systém</DropdownItem>
                 <DropdownItem>Option 2</DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem style={{ paddingLeft: "10px" }}>
+              <NavLink href="Kontakt">Kontakt</NavLink>
+            </NavItem>
           </Nav>
           {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>

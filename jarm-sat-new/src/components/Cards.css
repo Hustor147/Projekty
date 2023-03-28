@@ -1,0 +1,18 @@
+.sloupec {
+  /* border: 2px solid red; */
+  padding: 20px;
+}
+.modal-content {
+  /* nastaví šířku modálního okna na 800px */
+  height: fit-content;
+  text-align: justify;
+}
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+}
+.modal {
+  --bs-modal-width: 70%;
+}
