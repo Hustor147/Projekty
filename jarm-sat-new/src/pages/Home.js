@@ -1,13 +1,14 @@
 import { Container, Row, Col } from "reactstrap";
 import "./Home.css";
+import Sky from "../components/Sky";
+import Cards from "../components/Cards";
 
 const Home = () => {
   return (
     <>
-      {/* <div id="sky" /> */}
-      <div id="section1">
-        {/* <Header /> */}
+      <div>
         <div className="contentBox">
+          <Cards />
           <h1>Home</h1>
           <p className="popisky">
             Už více jak 20let se specializujeme na výstabě a správě televizních,
@@ -54,19 +55,6 @@ const Home = () => {
                   záznamu.
                 </p>
               </Col>
-            </Row>
-          </Container>
-          <Container>
-            <Row>
-              <Col xs="0" md="4"></Col>
-              <Col xs="12" md="4">
-                <h2 className="center">
-                  ANTENY - SATELITY <br />
-                  PRODEJ - MONTAZ <br />
-                  KAMROVE SYSTEMY
-                </h2>
-              </Col>
-              <Col xs="0" md="4"></Col>
             </Row>
           </Container>
         </div>

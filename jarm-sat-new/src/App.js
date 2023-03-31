@@ -5,6 +5,7 @@ import Nabizime from "./pages/Nabizime";
 import Reference from "./pages/Reference";
 import Error from "./pages/Error";
 import Layout from "./pages/Layout";
+import NasePrace from "./pages/NasePrace";
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
           <Route index element={<Home />}></Route>
           <Route path="Kontakt" element={<Kontakt />}></Route>
           <Route path="Nabizime" element={<Nabizime />}></Route>
-          {/* <Route path="Poptavka" element={<Poptavka />}></Route> */}
+          <Route path="NasePrace" element={<NasePrace />}></Route>
           <Route path="Reference" element={<Reference />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Route>

@@ -1,12 +1,25 @@
 .fullBackground {
   height: fit-content;
-  background-color: rgb(100, 100, 100);
+  background-image: url(/public/images/backsky.jpg);
 }
 
 #right {
   text-align: right;
   margin-top: 3%;
+  color: white;
+}
+@media (max-width: 767px) {
+  #right {
+    text-align: center;
+  }
 }
 #left {
+  color: white;
+
   margin-top: 3%;
+}
+@media (max-width: 767px) {
+  #left {
+    text-align: center;
+  }
 }

@@ -49,7 +49,7 @@ function Navi(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav style={{ textAlign: "left" }} navbar>
             <NavItem style={{ paddingLeft: "10px" }}>
-              <NavLink href="/">O nas</NavLink>
+              <NavLink href="/">O nás</NavLink>
             </NavItem>
 
             <NavItem style={{ paddingLeft: "10px" }}>
@@ -59,7 +59,7 @@ function Navi(args) {
               <NavLink href="Reference">Reference</NavLink>
             </NavItem>
             <NavItem style={{ paddingLeft: "10px" }}>
-              <NavLink href="Galerie">Naše práce</NavLink>
+              <NavLink href="NasePrace">Naše práce</NavLink>
             </NavItem>
             <NavItem style={{ paddingLeft: "10px" }}>
               <NavLink href="Kontakt">Kontakt</NavLink>

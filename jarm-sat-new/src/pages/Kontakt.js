@@ -8,26 +8,36 @@ const Kontakt = () => {
         <p className="popisky">
           <Container>
             <Row>
-              <Col xs={0} sm={4}></Col>
-              <Col xs={12} sm={4}>
+              <Col xs={0} sm={3}></Col>
+              <Col xs={12} sm={6} className="center">
                 <br />
                 <h2>Milan Jarolímek</h2>
                 <br />
 
+                <h5>
+                  Varšavská 2743
+                  <br />
+                  390 05 Tábor
+                </h5>
+                <br />
+
                 <p>
-                  Sídlo
+                  Telefon:
                   <br />
-                  Příběnická 23
+                  <a href="tel:+420728010284">+420728010284</a>
+                </p>
+                <p>
+                  Email:
                   <br />
-                  390 75 Malšice
+                  <a href="mailto:jarolimek@seznam.cz">
+                    milan.jarolimek@seznam.cz
+                  </a>
+                  <br />
+                  <a href="mailto:jarm.sat@seznam.cz">jarm.sat@seznam.cz</a>
                 </p>
               </Col>
 
-              <Col xs={12} sm={4}>
-                <a href="tel:+420123456789">+420 123 456 789</a>
-                <br />
-                <a href="mailto:jarolimek@seznam.cz">Napsat mail</a>
-              </Col>
+              <Col xs={12} sm={3}></Col>
             </Row>
           </Container>
           <Map />

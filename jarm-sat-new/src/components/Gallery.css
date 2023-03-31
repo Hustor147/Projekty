@@ -1,0 +1,9 @@
+.lg-thumb-container {
+  margin: 20px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.lg-thumb-container img {
+  margin: 10px;
+}
