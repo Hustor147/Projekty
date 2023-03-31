@@ -9,7 +9,7 @@ const Home = () => {
       <div>
         <div className="contentBox">
           <Cards />
-          <h1>Home</h1>
+          <br />
           <p className="popisky">
             Už více jak 20let se specializujeme na výstabě a správě televizních,
             satelitních a kamerových rozvodù v individuálních rodinných nebo ve
@@ -18,7 +18,7 @@ const Home = () => {
             a Telly. Nainstalujeme veškeré komponenty pro kvalitní příjem ( STA
             - DVBT2 / DVBS2 ). Působíme v jihočeském kraji, konkrétně v okrese
             Tábor, ale instalace, renovace nebo servis provádíme také například
-            v okrese Jihdřichùv Hradec, Pelhřimov, České Budějovice, Písek,
+            v okrese Jihdřichův Hradec, Pelhřimov, České Budějovice, Písek,
             Benešov apod. Našim cílem je spokojenost zákazníka a proto
             instalace, servis provádíme, odborně, svědomitě s precizním
             výsledkem.

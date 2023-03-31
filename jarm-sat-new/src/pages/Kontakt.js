@@ -4,7 +4,6 @@ const Kontakt = () => {
   return (
     <>
       <div className="contentBox">
-        <h1>Kontakt</h1>
         <p className="popisky">
           <Container>
             <Row>

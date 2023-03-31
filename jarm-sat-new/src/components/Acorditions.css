@@ -1,0 +1,27 @@
+.list {
+  border: 10px solid rgb(0, 0, 0);
+  font-weight: 700;
+  border-radius: 10px;
+  padding-left: 5%;
+}
+.underline {
+  text-decoration: underline;
+}
+.floating {
+  float: left;
+  height: 100px;
+  margin: 10px;
+}
+.floatingR {
+  float: right;
+}
+
+.logomax img {
+  align-items: end;
+  max-height: 55px;
+  /* border: 2px solid red; */
+}
+.antenasys {
+  color: black;
+  text-align: left;
+}

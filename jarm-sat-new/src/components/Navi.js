@@ -20,17 +20,13 @@ function Navi(args) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-  const topNavi = -142;
+
   function handleNavLinkClick(event) {
     event.preventDefault();
     const targetId = event.currentTarget.getAttribute("href");
     const targetElement = document.querySelector(targetId);
     if (targetElement) {
       const elementOffsetTop = targetElement.offsetTop;
-      window.scrollTo({
-        top: elementOffsetTop + topNavi,
-        behavior: "smooth",
-      });
     }
   }
 
@@ -39,10 +35,7 @@ function Navi(args) {
       <Navbar id="navi" color="light" expand="md" className="contentBox">
         <NavbarBrand href="/">
           {/* TADY JE LOGO */}
-          <img
-            src="./images/LogoNew.png"
-            style={{ height: 100, width: 100 }}
-          />{" "}
+          <img src="./images/LogoNew.png" style={{ height: 100 }} />{" "}
           {/* TADY MUZE BYT NAZEV */}
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />

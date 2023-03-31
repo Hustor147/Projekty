@@ -21,7 +21,7 @@
   overflow: scroll;
 }
 .modal {
-  --bs-modal-width: 1000px;
+  --bs-modal-width: 1000px !important;
 }
 /* UMISTENI KRIZKU V MODALU NAPRAVO */
 .closeButtonclose {
@@ -29,4 +29,10 @@
 }
 .modalNadpisStred {
   text-align: center;
+}
+#cards img {
+  object-fit: cover;
+  height: 200px;
+  max-width: 100%;
+  max-height: 100%;
 }

@@ -7,7 +7,7 @@ const Sky = () => {
         <div className=" contentBox">
           <Container>
             <Row>
-              <Col className="col" xs={12} md={4}>
+              <Col className="header" xs={12} md={4}>
                 <h1>Milan Jarolímek</h1>
                 <br />
                 <h4>
@@ -15,7 +15,7 @@ const Sky = () => {
                 </h4>
               </Col>
               <Col>
-                <h3>
+                <h3 className="header">
                   ANTENY - SATELITY <br /> PRODEJ - MONTAZ <br />
                   KAMEROVÉ SYSTEMY
                 </h3>
