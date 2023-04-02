@@ -12,7 +12,7 @@ const Sky = () => {
                 <h1>Milan Jarolímek</h1>
                 {/* <br /> */}
                 <h4>
-                  <a href="tel:+420728010284">tel:(+420) 728010284</a>
+                  <a href="tel:+420728010284">tel:(+420) 728 010 284</a>
                 </h4>
               </Col>
               <Col className="header mid">
