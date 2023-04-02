@@ -2,13 +2,16 @@
   /* border: 2px solid red; */
   padding: 20px;
 }
+
 #cards {
   justify-content: center;
   margin-top: 5vh;
   padding-left: 2%;
   padding-right: 2%;
 }
-
+.card-body {
+  margin: 0 auto;
+}
 .modal-content {
   padding: 10px;
   height: fit-content;
@@ -31,6 +34,7 @@
   text-align: center;
 }
 #cards img {
+  border-radius: 2% 2% 0 0;
   object-fit: cover;
   height: 200px;
   max-width: 100%;

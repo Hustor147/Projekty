@@ -10,12 +10,13 @@
 }
 @media (max-width: 767px) {
   #right {
+    padding-right: 2%;
     text-align: center;
   }
 }
 #left {
   color: white;
-
+  padding-left: 2%;
   margin-top: 3%;
 }
 @media (max-width: 767px) {

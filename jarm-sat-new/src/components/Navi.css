@@ -1,4 +1,5 @@
 #navi {
+  width: 100%;
   position: fixed;
   top: 0;
 
@@ -18,12 +19,20 @@
 
 /* BAREVNOST NAVIGACNI LISTY */
 .bg-light {
-  --bs-bg-opacity: 1;
   font-weight: 700;
-  background-color: rgb(255, 255, 255) !important;
   z-index: 999;
 }
 
 .navbar-nav {
   margin-left: auto;
+}
+.navbar-nav a {
+  text-decoration: none;
+}
+
+.my-header .container-fluid {
+  background: white;
+}
+.navbar .bg-light {
+  background: white;
 }

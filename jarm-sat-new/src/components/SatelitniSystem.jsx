@@ -50,7 +50,7 @@ const SatelitniSystem = () => {
             zavedení svodu koaxiálním kabelem zakončený zásuvkou nebo koncovkou
           </li>
           <li>propojení všech komponentů a naladění příjímače ( TV )</li>
-          <li>- instrukáž</li>
+          <li>instrukáž</li>
         </ul>
       </div>
       <br />
@@ -72,6 +72,7 @@ const SatelitniSystem = () => {
         nenajdete. <br />
       </p>
       <br />
+      <br />
       <p>
         <img
           className="floating"
@@ -86,6 +87,8 @@ const SatelitniSystem = () => {
         překážka. Satelitní příjem je nachylný na výkyvy počasí. Příjem se
         zhoršuje zejména při bouřkách nebo při hustém sněžení.
       </p>
+      <br />
+      <br />
     </>
   );
 };

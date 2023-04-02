@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+//import { Link, animateScroll as scroll } from "react-scroll";
 import {
   Container,
   Row,
@@ -51,7 +53,9 @@ const Cards = () => {
             <Card>
               <img src="./images/antenasys.jpg" />
               <CardBody>
-                <Button onClick={openModal1}>Anténní systém</Button>
+                <Button className="btncenter" onClick={openModal1}>
+                  Anténní systém
+                </Button>
                 <Modal
                   className="modalSize"
                   isOpen={isOpen1}

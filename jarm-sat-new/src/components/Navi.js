@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navi.css";
 import {
   Collapse,
@@ -31,34 +32,44 @@ function Navi(args) {
   }
 
   return (
-    <div>
-      <Navbar id="navi" color="light" expand="md" className="contentBox">
-        <NavbarBrand href="/">
-          {/* TADY JE LOGO */}
-          <img src="./images/LogoNew.png" style={{ height: 100 }} />{" "}
-          {/* TADY MUZE BYT NAZEV */}
-        </NavbarBrand>
+    <div className="my-header">
+      <Navbar id="navi" color="light" expand="md">
+        <Link to="/">
+          <NavbarBrand>
+            {/* TADY JE LOGO */}
+            <img src="./images/LogoNew.png" style={{ height: 100 }} />{" "}
+            {/* TADY MUZE BYT NAZEV */}
+          </NavbarBrand>
+        </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav style={{ textAlign: "left" }} navbar>
-            <NavItem style={{ paddingLeft: "10px" }}>
-              <NavLink href="/">O nás</NavLink>
-            </NavItem>
-
-            <NavItem style={{ paddingLeft: "10px" }}>
-              <NavLink href="Nabizime">Nabízíme</NavLink>
-            </NavItem>
-            <NavItem style={{ paddingLeft: "10px" }}>
-              <NavLink href="Reference">Reference</NavLink>
-            </NavItem>
-            <NavItem style={{ paddingLeft: "10px" }}>
-              <NavLink href="NasePrace">Naše práce</NavLink>
-            </NavItem>
-            <NavItem style={{ paddingLeft: "10px" }}>
-              <NavLink href="Kontakt">Kontakt</NavLink>
-            </NavItem>
+            <Link to="/">
+              <NavItem style={{ paddingLeft: "10px" }}>
+                <NavLink>O nás</NavLink>
+              </NavItem>
+            </Link>
+            <Link to="/Nabizime">
+              <NavItem style={{ paddingLeft: "10px" }}>
+                <NavLink>Nabízíme</NavLink>
+              </NavItem>
+            </Link>
+            <Link to="/Reference">
+              <NavItem style={{ paddingLeft: "10px" }}>
+                <NavLink>Reference</NavLink>
+              </NavItem>
+            </Link>
+            <Link to="/NasePrace">
+              <NavItem style={{ paddingLeft: "10px" }}>
+                <NavLink>Naše práce</NavLink>
+              </NavItem>
+            </Link>
+            <Link to="/Kontakt">
+              <NavItem style={{ paddingLeft: "10px" }}>
+                <NavLink>Kontakt</NavLink>
+              </NavItem>
+            </Link>
           </Nav>
-          {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
       </Navbar>
     </div>

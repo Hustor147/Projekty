@@ -1,11 +1,16 @@
+import { Container, Row, Col } from "reactstrap";
 import Gallery from "../components/Gallery";
 
 const NasePrace = () => {
   return (
     <>
-      <div className="contentBox">
-        <Gallery />
-      </div>
+      <Container>
+        <Row>
+          <Col>
+            <Gallery />
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };

@@ -11,9 +11,10 @@ import Footer from "../components/Footer";
 const Layout = () => {
   return (
     <>
-      <div className="contentBox">
+      <div className="fullBackground">
         <Navi />
       </div>
+
       <Sky />
       <Outlet />
       {/* <BackOnTop />*/}

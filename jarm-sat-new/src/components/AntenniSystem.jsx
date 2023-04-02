@@ -2,7 +2,7 @@ import { Container, Row, Col } from "reactstrap";
 const AntenniSystem = () => {
   return (
     <>
-      <h2>( DVB-T2 ) SYSTÉM</h2> <br />
+      <h2 id="antenniSystem">( DVB-T2 ) SYSTÉM</h2> <br />
       <Container>
         <Row>
           <Col className="logomax">
@@ -73,6 +73,7 @@ const AntenniSystem = () => {
       Bytovým družstvům, správcům objektům, hotelům i majitelům rozsáhlejších
       nemovitostí nabízíme kompletní služby spojené s vybudováním, servisem a
       modernizací společných televizních antén.
+      <br />
       <br />
       <br />
       <Container className="antenasys">

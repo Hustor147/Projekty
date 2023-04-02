@@ -3,15 +3,12 @@ p {
 }
 .popisky {
   text-align: justify;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 .center {
   text-align: center;
 }
-/* .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .container img {
   max-width: 100%;
