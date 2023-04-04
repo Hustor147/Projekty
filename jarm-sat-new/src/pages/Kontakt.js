@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "reactstrap";
 import Map from "../components/Map";
+
 const Kontakt = () => {
   return (
     <>
@@ -14,16 +15,16 @@ const Kontakt = () => {
                 <br />
 
                 <h5>
-                  Varšavská 2743
+                  Příběnická 23
                   <br />
-                  390 05 Tábor
+                  390 75 Malšice
                 </h5>
                 <br />
 
                 <p>
                   Telefon:
                   <br />
-                  <a href="tel:+420728010284">+420728010284</a>
+                  <a href="tel:+420728010284">728 010 284</a>
                 </p>
                 <p>
                   Email:

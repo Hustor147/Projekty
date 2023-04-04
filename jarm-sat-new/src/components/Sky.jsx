@@ -9,7 +9,8 @@ const Sky = () => {
           <Container>
             <Row>
               <Col className="header" xs={12} md={4}>
-                <h1>Milan Jarolímek</h1>
+                <h1>Jarm-SAT</h1>
+                <h3>Milan Jarolímek</h3>
                 {/* <br /> */}
                 <h4>
                   <a href="tel:+420728010284">tel:(+420) 728 010 284</a>

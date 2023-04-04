@@ -47,7 +47,7 @@ const AntenniSystem = () => {
           <br />
           <li>výjezd ( doprava )</li>
           <li>
-            sestavení satelitního kompletu včetně instalace na výložník nebo na
+            sestavení anténního kompletu včetně instalace na výložník nebo na
             stožár
           </li>
           <li>
@@ -100,7 +100,7 @@ const AntenniSystem = () => {
             </p>
           </Col>
           <Col xs={6} md={3}>
-            <img className="floatingSTA" src="./images/sta1.gif" />
+            <img className="floatingSTA" src="./images/sta2.gif" />
             <p className="center">
               Nový systém
               <br />
